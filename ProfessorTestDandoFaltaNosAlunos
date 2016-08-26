@@ -1,0 +1,25 @@
+package br.com.fainor.testel;
+
+import br.com.fainor.dao.AlunoDao;
+import br.com.fainor.model.Professor;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ProfessorTestDandoFaltaNosAlunos {
+	public static Object main(String[] args) {
+		String is_faltou;
+		Professor professor;
+		AlunoDao alunos;
+		List<Aluno> AlunoId = new ArrayList<>();
+
+		for (AlunoDao aluno : AlunoDao.class.Aluno().alunos) {
+			if (aluno.getId() == id) {
+				return AlunoId;
+				System.out.println("todos estes alunos Faltaram ");
+			}
+		}
+		return null;
+	}
+
+}
